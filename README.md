@@ -89,11 +89,5 @@ cypress/reports/
 
 ---
 
-### Links Importantes
-
-- 📌 **ServeRest API:** [serverest.dev](https://serverest.dev/)
-- 📌 **ServeRest Frontend:** [front.serverest.dev](https://front.serverest.dev/)
-- 📌 **Cypress Documentation:** [https://docs.cypress.io/](https://docs.cypress.io/)
-
 **Contribuições são bem-vindas!** Caso encontre algum problema ou tenha sugestões, abra uma *issue*. 😊
 
