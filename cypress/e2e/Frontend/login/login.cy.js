@@ -12,7 +12,7 @@ beforeEach(() => {
 })
 
 describe('Login', () => {
-    it('deve realizar login com sucesso', () => {
+    it('Deve realizar login com sucesso', () => {
         const nome = faker.person.fullName()
         const email = faker.internet.email()
         const password = faker.internet.password()
@@ -28,7 +28,7 @@ describe('Login', () => {
         cy.get('[data-testid="logout"]').should('be.visible')
     })
 
-    it('deve realizar login com usuário admininistrador com sucesso', () => {
+    it('Deve realizar login com usuário admininistrador com sucesso', () => {
         const nome = faker.person.fullName()
         const email = faker.internet.email()
         const password = faker.internet.password()
@@ -47,7 +47,7 @@ describe('Login', () => {
 })
 
 context('Erros', () => {
-    it('não deve realizar login com usuário inexistente', () => {
+    it('Não deve realizar login com usuário inexistente', () => {
         const email = faker.internet.email()
         const password = faker.internet.password()
 
@@ -57,7 +57,7 @@ context('Erros', () => {
 
     })
 
-    it('não deve realizar login com email inválido', () => {
+    it('Não deve realizar login com email inválido', () => {
         const email = 'teste@teste'
         const password = faker.internet.password()
 
@@ -66,7 +66,7 @@ context('Erros', () => {
         cy.url().should('be.equal', `${baseUrl}/login`)
     })
 
-    it('não deve realizar login com campos obrigatórios vazios', () => {
+    it('Não deve realizar login com campos obrigatórios vazios', () => {
         cy.loginComCamposVazios()
 
         cy.contains('.form', 'Email é obrigatório').should('be.visible')
