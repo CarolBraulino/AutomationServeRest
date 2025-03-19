@@ -1,0 +1,16 @@
+# Node.js  
+node_modules/  
+package-lock.json  
+
+# Cypress  
+cypress/screenshots/  
+cypress/videos/  
+cypress/downloads/  
+
+# Configurações Locais  
+cypress.config.js.local  
+.env  
+
+# Logs & Cache  
+*.log  
+*.cache  

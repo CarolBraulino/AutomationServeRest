@@ -1,0 +1,22 @@
+{
+  "name": "automationserverest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolBraulino/AutomationServeRest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarolBraulino/AutomationServeRest/issues"
+  },
+  "homepage": "https://github.com/CarolBraulino/AutomationServeRest#readme",
+  "devDependencies": {
+    "cypress": "^14.2.0"
+  }
+}
