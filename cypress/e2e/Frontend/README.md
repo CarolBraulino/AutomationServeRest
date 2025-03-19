@@ -1,4 +1,4 @@
-# README
+# Frontend
 
 Este diretório contém os testes de ponta a ponta (e2e) para o frontend do projeto, organizados nas seguintes pastas:
 
