@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    specPattern: 'cypress/tests/**/*.cy.{js,jsx,ts,tsx}',
+    specPattern: 'cypress/e2e/**/**/*.cy.{js,jsx,ts,tsx}',
     baseUrl: 'https://front.serverest.dev',
     supportFile: false,
     video: false,
