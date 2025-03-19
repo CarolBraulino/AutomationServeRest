@@ -88,8 +88,8 @@ context('Erros', () => {
             expect(response.status).to.eq(400)
             expect(response.body).to.have.all.keys('nome', 'email', 'password', 'administrador');
             expect(response.body).to.deep.include({
-                nome: 'Nome não pode ficar em branco',
-                email: 'Email não pode ficar em branco',
+                nome: 'nome não pode ficar em branco',
+                email: 'email não pode ficar em branco',
                 password: 'password não pode ficar em branco',
                 administrador: "administrador deve ser 'true' ou 'false'"
             })
