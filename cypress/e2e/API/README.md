@@ -1,4 +1,4 @@
-# README
+# API
 
 Este diretório contém os testes de ponta a ponta (e2e) para a API do projeto, organizados nas seguintes pastas:
 
