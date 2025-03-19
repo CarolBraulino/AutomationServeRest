@@ -7,7 +7,7 @@ Este repositório contém testes **End-to-End (E2E)** automatizados para:
 - **Frontend:** [ServeRest Frontend](https://front.serverest.dev/)
 - **API:** [ServeRest API](https://serverest.dev/)
 
-Os testes são executados utilizando o **Cypress**, garantindo qualidade e confiabilidade para os fluxos principais do sistema.
+Os testes são executados utilizando o **Cypress**.
 
 ---
 
