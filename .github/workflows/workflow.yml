@@ -1,4 +1,4 @@
-name: ServeRest Automation Tests
+name: AutomationServeRest  
 
 on:
   push:
