@@ -6,6 +6,7 @@ package-lock.json
 cypress/screenshots/  
 cypress/videos/  
 cypress/downloads/  
+reports/
 
 # Configurações Locais  
 cypress.config.js.local  
